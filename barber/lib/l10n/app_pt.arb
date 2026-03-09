@@ -1,0 +1,134 @@
+{
+  "appTitle": "Barbearia Clássica",
+  "sinceYear": "Desde 2024",
+  "bookCut": "Agende seu corte",
+  "services": "Serviços",
+  "ourHistory": "Nossa História",
+  "contact": "Contato",
+  "login": "Login",
+  "email": "E-mail",
+  "password": "Senha",
+  "enter": "Entrar",
+  "imBarber": "Sou Barbeiro",
+  "bookWithoutRegister": "Agendar sem cadastro",
+  "helloClient": "Olá, Cliente",
+  "myPoints": "Meus Pontos",
+  "subscriptionPlan": "Plano de Assinatura",
+  "referAndEarn": "Indique e Ganhe",
+  "bookAppointment": "Agendar Corte",
+  "barberArea": "Área do Barbeiro",
+  "nextAppointments": "Próximos Agendamentos",
+  "myProfile": "Meu Perfil",
+  "settings": "Configurações",
+  "notifications": "Notificações",
+  "darkMode": "Modo Escuro",
+  "language": "Idioma",
+  "helpSupport": "Ajuda e Suporte",
+  "logout": "Sair da Conta",
+  "editProfile": "Editar Perfil",
+  "saveChanges": "Salvar Alterações",
+  "name": "Nome",
+  "phone": "Telefone",
+  "contactTitle": "Entre em Contato",
+  "addressTitle": "Endereço",
+  "addressContent": "Rua das Tesouras, 123\nCentro, Cidade - SP",
+  "phoneTitle": "Telefone",
+  "phoneContent": "(11) 99999-9999\n(11) 3333-3333",
+  "hoursTitle": "Horário",
+  "hoursContent": "Seg - Sex: 09:00 - 20:00\nSáb: 09:00 - 18:00",
+  "whatsappButton": "Falar no WhatsApp",
+  "bannerSubtitle": "Estilo e tradição para o homem moderno",
+  "bookSchedule": "Agendar Horário",
+  "loyaltyProgram": "Programa de Fidelidade",
+  "loyaltyPoints": "{current} de {total} cortes para ganhar 1 grátis!",
+  "@loyaltyPoints": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "subscribePremium": "Assine o Premium",
+  "premiumOffer": "Cortes ilimitados por R$99/mês",
+  "subscribe": "Assinar",
+  "referShare": "Compartilhe seu código e ganhe descontos!",
+  "barberProfileName": "Barbeiro Profissional",
+  "appointmentsCount": "{count, plural, =0{Nenhum agendamento} =1{1 Agendamento} other{{count} Agendamentos}}",
+  "@appointmentsCount": {
+    "description": "Uma mensagem plural para contagem de agendamentos",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "totalPrice": "Total: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "symbol": "R$",
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "bookingDate": "Data: {date}",
+  "@bookingDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "welcomeUser": "{gender, select, male{Bem-vindo, {name}} female{Bem-vinda, {name}} other{Olá, {name}}}",
+  "@welcomeUser": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "myAppointments": "Meus Agendamentos",
+  "newSchedule": "Novo Agendamento",
+  "barberArea": "Área do Barbeiro",
+  "pending": "Pendente",
+  "confirmed": "Confirmado",
+  "cancelled": "Cancelado",
+  "myProfile": "Meu Perfil",
+  "myServices": "Meus Serviços",
+  "businessHours": "Horário de Atendimento",
+  "reviews": "Avaliações",
+  "scheduleServiceTitle": "Agendar Serviço",
+  "retry": "Tentar novamente",
+  "guestBookingMessage": "Agendando como Convidado. Cadastre-se depois para ganhar pontos!",
+  "serviceLabel": "Serviço",
+  "barberLabel": "Barbeiro",
+  "dateLabel": "Data",
+  "timeLabel": "Horário",
+  "confirmSchedule": "Confirmar Agendamento",
+  "scheduleSuccess": "Agendamento realizado com sucesso!",
+  "selectServiceAndBarber": "Selecione um serviço e um barbeiro",
+  "welcomeTitle": "Bem-vindo",
+  "loginPrompt": "Como você deseja entrar?",
+  "imClient": "Sou Cliente",
+  "ourServicesTitle": "Nossos Serviços",
+  "traditionSince": "Tradição desde 1990",
+  "historyText1": "Começamos como uma pequena barbearia familiar e hoje somos referência em estilo e cuidado masculino. Nossa missão é proporcionar não apenas um corte de cabelo, mas uma experiência de relaxamento e confiança.",
+  "historyText2": "Preservamos as técnicas clássicas de barbearia enquanto abraçamos as tendências modernas. Aqui, cada cliente é tratado como um velho amigo.",
+  "fullNameLabel": "Nome Completo",
+  "specialtiesLabel": "Especialidades",
+  "specialtiesHelper": "Separe por vírgulas",
+  "bioLabel": "Bio / Sobre Mim",
+  "profileUpdatedSuccess": "Perfil atualizado com sucesso!"
+}

@@ -1,0 +1,134 @@
+{
+  "appTitle": "Classic Barbershop",
+  "sinceYear": "Since 2024",
+  "bookCut": "Book your cut",
+  "services": "Services",
+  "ourHistory": "Our History",
+  "contact": "Contact",
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "enter": "Enter",
+  "imBarber": "I'm a Barber",
+  "bookWithoutRegister": "Book without registration",
+  "helloClient": "Hello, Client",
+  "myPoints": "My Points",
+  "subscriptionPlan": "Subscription Plan",
+  "referAndEarn": "Refer and Earn",
+  "bookAppointment": "Book Appointment",
+  "barberArea": "Barber Area",
+  "nextAppointments": "Next Appointments",
+  "myProfile": "My Profile",
+  "settings": "Settings",
+  "notifications": "Notifications",
+  "darkMode": "Dark Mode",
+  "language": "Language",
+  "helpSupport": "Help & Support",
+  "logout": "Logout",
+  "editProfile": "Edit Profile",
+  "saveChanges": "Save Changes",
+  "name": "Name",
+  "phone": "Phone",
+  "contactTitle": "Get in Touch",
+  "addressTitle": "Address",
+  "addressContent": "123 Scissors St\nDowntown, City - SP",
+  "phoneTitle": "Phone",
+  "phoneContent": "(11) 99999-9999\n(11) 3333-3333",
+  "hoursTitle": "Hours",
+  "hoursContent": "Mon - Fri: 09:00 - 20:00\nSat: 09:00 - 18:00",
+  "whatsappButton": "Chat on WhatsApp",
+  "bannerSubtitle": "Style and tradition for the modern man",
+  "bookSchedule": "Book Appointment",
+  "loyaltyProgram": "Loyalty Program",
+  "loyaltyPoints": "{current} out of {total} cuts to get 1 free!",
+  "@loyaltyPoints": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "subscribePremium": "Subscribe to Premium",
+  "premiumOffer": "Unlimited cuts for $99/mo",
+  "subscribe": "Subscribe",
+  "referShare": "Share your code and get discounts!",
+  "barberProfileName": "Professional Barber",
+  "appointmentsCount": "{count, plural, =0{No appointments} =1{1 Appointment} other{{count} Appointments}}",
+  "@appointmentsCount": {
+    "description": "A plural message for appointment count",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "totalPrice": "Total: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "symbol": "$",
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "bookingDate": "Date: {date}",
+  "@bookingDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "welcomeUser": "{gender, select, male{Welcome, {name}} female{Welcome, {name}} other{Hello, {name}}}",
+  "@welcomeUser": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "myAppointments": "My Appointments",
+  "newSchedule": "New Appointment",
+  "barberArea": "Barber Area",
+  "pending": "Pending",
+  "confirmed": "Confirmed",
+  "cancelled": "Cancelled",
+  "myProfile": "My Profile",
+  "myServices": "My Services",
+  "businessHours": "Business Hours",
+  "reviews": "Reviews",
+  "scheduleServiceTitle": "Schedule Service",
+  "retry": "Retry",
+  "guestBookingMessage": "Booking as Guest. Register later to earn points!",
+  "serviceLabel": "Service",
+  "barberLabel": "Barber",
+  "dateLabel": "Date",
+  "timeLabel": "Time",
+  "confirmSchedule": "Confirm Schedule",
+  "scheduleSuccess": "Schedule confirmed successfully!",
+  "selectServiceAndBarber": "Please select a service and a barber",
+  "welcomeTitle": "Welcome",
+  "loginPrompt": "How do you want to login?",
+  "imClient": "I'm a Client",
+  "ourServicesTitle": "Our Services",
+  "traditionSince": "Tradition since 1990",
+  "historyText1": "We started as a small family barbershop and today we are a reference in style and male care. Our mission is to provide not just a haircut, but an experience of relaxation and confidence.",
+  "historyText2": "We preserve classic barbering techniques while embracing modern trends. Here, every client is treated like an old friend.",
+  "fullNameLabel": "Full Name",
+  "specialtiesLabel": "Specialties",
+  "specialtiesHelper": "Separate by commas",
+  "bioLabel": "Bio / About Me",
+  "profileUpdatedSuccess": "Profile updated successfully!"
+}
