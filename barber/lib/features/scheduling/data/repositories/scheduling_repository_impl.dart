@@ -13,7 +13,7 @@ class SchedulingRepositoryImpl implements SchedulingRepository {
   SchedulingRepositoryImpl(this.remoteDataSource);
 
   @override
-  FutureEither<List<ServiceEntity>> getServices() async {
+  ResultFuture<List<ServiceEntity>> getServices() async {
     try {
       final services = await remoteDataSource.getServices();
       return Right(services);
@@ -31,7 +31,7 @@ class SchedulingRepositoryImpl implements SchedulingRepository {
   }
 
   @override
-  FutureEither<List<BarberEntity>> getBarbers() async {
+  ResultFuture<List<BarberEntity>> getBarbers() async {
     try {
       final barbers = await remoteDataSource.getBarbers();
       return Right(barbers);

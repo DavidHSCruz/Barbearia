@@ -12,7 +12,7 @@ class AppointmentsRepositoryImpl implements AppointmentsRepository {
   AppointmentsRepositoryImpl(this.remoteDataSource);
 
   @override
-  FutureEither<List<AppointmentEntity>> getClientAppointments() async {
+  ResultFuture<List<AppointmentEntity>> getClientAppointments() async {
     try {
       final appointments = await remoteDataSource.getClientAppointments();
       return Right(appointments);
@@ -23,14 +23,16 @@ class AppointmentsRepositoryImpl implements AppointmentsRepository {
           return Left(ServerFailure(data['message']));
         }
       }
-      return const Left(ServerFailure('Falha ao buscar agendamentos do cliente'));
+      return const Left(
+        ServerFailure('Falha ao buscar agendamentos do cliente'),
+      );
     } catch (e) {
       return Left(ServerFailure(e.toString()));
     }
   }
 
   @override
-  FutureEither<List<AppointmentEntity>> getBarberAppointments() async {
+  ResultFuture<List<AppointmentEntity>> getBarberAppointments() async {
     try {
       final appointments = await remoteDataSource.getBarberAppointments();
       return Right(appointments);
@@ -41,7 +43,9 @@ class AppointmentsRepositoryImpl implements AppointmentsRepository {
           return Left(ServerFailure(data['message']));
         }
       }
-      return const Left(ServerFailure('Falha ao buscar agendamentos do barbeiro'));
+      return const Left(
+        ServerFailure('Falha ao buscar agendamentos do barbeiro'),
+      );
     } catch (e) {
       return Left(ServerFailure(e.toString()));
     }

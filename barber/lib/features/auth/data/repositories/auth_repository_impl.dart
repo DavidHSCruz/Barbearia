@@ -12,7 +12,7 @@ class AuthRepositoryImpl implements AuthRepository {
   AuthRepositoryImpl(this.remoteDataSource);
 
   @override
-  FutureEither<UserEntity> login(String email, String password) async {
+  ResultFuture<UserEntity> login(String email, String password) async {
     try {
       final userModel = await remoteDataSource.login(email, password);
       return Right(userModel);

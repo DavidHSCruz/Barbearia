@@ -9,7 +9,7 @@ class GetBarbersUseCase implements UseCase<List<BarberEntity>, NoParams> {
   GetBarbersUseCase(this.repository);
 
   @override
-  FutureEither<List<BarberEntity>> call(NoParams params) {
+  ResultFuture<List<BarberEntity>> call(NoParams params) {
     return repository.getBarbers();
   }
 }

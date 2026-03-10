@@ -1,5 +1,10 @@
 import 'package:fpdart/fpdart.dart';
 import '../errors/failures.dart';
 
-typedef FutureEither<T> = Future<Either<Failure, T>>;
-typedef FutureVoid = FutureEither<void>;
+typedef ResultFuture<T> = Future<Either<Failure, T>>;
+
+typedef ResultNow<T> = Either<Failure, T>;
+
+typedef ResultVoid = Future<Either<Failure, void>>;
+
+typedef DataMap = Map<String, dynamic>;

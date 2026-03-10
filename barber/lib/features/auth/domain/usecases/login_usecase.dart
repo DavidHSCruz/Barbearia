@@ -10,7 +10,7 @@ class LoginUseCase implements UseCase<UserEntity, LoginParams> {
   LoginUseCase(this.repository);
 
   @override
-  FutureEither<UserEntity> call(LoginParams params) {
+  ResultFuture<UserEntity> call(LoginParams params) {
     return repository.login(params.email, params.password);
   }
 }

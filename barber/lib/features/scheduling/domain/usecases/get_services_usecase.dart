@@ -9,7 +9,7 @@ class GetServicesUseCase implements UseCase<List<ServiceEntity>, NoParams> {
   GetServicesUseCase(this.repository);
 
   @override
-  FutureEither<List<ServiceEntity>> call(NoParams params) {
+  ResultFuture<List<ServiceEntity>> call(NoParams params) {
     return repository.getServices();
   }
 }

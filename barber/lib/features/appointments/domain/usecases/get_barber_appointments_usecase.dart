@@ -10,7 +10,7 @@ class GetBarberAppointmentsUseCase
   GetBarberAppointmentsUseCase(this.repository);
 
   @override
-  FutureEither<List<AppointmentEntity>> call(NoParams params) {
+  ResultFuture<List<AppointmentEntity>> call(NoParams params) {
     return repository.getBarberAppointments();
   }
 }
